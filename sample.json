@@ -1,0 +1,27 @@
+{
+  "start": {
+    "east_m": 1000,
+    "north_m": 2000
+  },
+  "end": {
+    "east_m": 1030,
+    "north_m": 2040
+  },
+  "points": [
+    {
+      "name": "Stake A",
+      "east_m": 1011,
+      "north_m": 2023
+    },
+    {
+      "name": "Stake B",
+      "east_m": 1044,
+      "north_m": 2042
+    },
+    {
+      "name": "Control",
+      "east_m": 994,
+      "north_m": 1992
+    }
+  ]
+}

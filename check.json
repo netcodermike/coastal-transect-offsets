@@ -1,0 +1,37 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "transect_length_m": 50.0,
+    "point_count": 3,
+    "points_outside_segment": 2,
+    "readings": [
+      {
+        "point": "Stake A",
+        "station_m": 25.0,
+        "left_offset_m": 5.0,
+        "reach": "within",
+        "projection_east_m": 1015.0,
+        "projection_north_m": 2020.0
+      },
+      {
+        "point": "Stake B",
+        "station_m": 60.0,
+        "left_offset_m": -10.0,
+        "reach": "beyond",
+        "projection_east_m": 1036.0,
+        "projection_north_m": 2048.0
+      },
+      {
+        "point": "Control",
+        "station_m": -10.0,
+        "left_offset_m": 0.0,
+        "reach": "before",
+        "projection_east_m": 994.0,
+        "projection_north_m": 1992.0
+      }
+    ]
+  }
+}
